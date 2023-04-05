@@ -9,6 +9,19 @@
     --invalid:#ff6f5b;
 }
 
+@font-face{
+    font-family:"SpaceGrotesk";
+    src:url(/starter-code/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf) format(ttf);
+    font-weight:medium;
+}
+
+@font-face{
+    font-family:"SpaceGrotesk";
+    src:url(/starter-code/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf) format(ttf);
+    font-weight:bold;
+}
+
+/* global styles */
 *{
     margin:0;
     padding:0;
@@ -18,16 +31,25 @@
 body{
     line-height: 1.3;
     font-size:100%;
+    font-family:"SpaceGrotesk";
+    background-color:var(--black);
 }
 
-@font-face{
-    font-family:main-font-medium;
-    src:url(/starter-code/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf) format(ttf);
-    font-weight:medium;
+.logo{
+    color:var(--white);
 }
 
-@font-face{
-    font-family:main-font-bold;
-    src:url(/starter-code/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf) format(ttf);
-    font-weight:bold;
+h1,h2,h3,h4,h5,h6{
+    color:var(--white);
 }
+
+p{
+    color:var(--grey);
+}
+
+.center{
+    text-align:center;
+}
+
+/* end of global styles */
+
