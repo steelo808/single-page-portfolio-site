@@ -113,7 +113,7 @@ header span {
 
 .circle{
     position:absolute;
-    z-index: -1;
+    z-index:-1;
     left:223px;
     top:120px
 }
@@ -135,6 +135,20 @@ header span {
 
 
 /* end of experience section */
+
+/* start of projects section */
+.projects-sct .heading{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+
+.project-img{
+    width:100%;
+}
+
+/* end of projects section */
 
 
 
